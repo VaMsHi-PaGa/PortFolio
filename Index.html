@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vamshi Krishna Reddy Paga | DevOps Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Fira Code', monospace;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    header {
+      background: #1e293b;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 4px solid #38bdf8;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #38bdf8;
+    }
+
+    header p {
+      font-size: 1.25rem;
+      margin-top: 0.5rem;
+      color: #94a3b8;
+    }
+
+    .contact {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .contact a, .contact span {
+      color: #f8fafc;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    section {
+      padding: 2.5rem 1.5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      font-size: 1.75rem;
+      border-left: 5px solid #38bdf8;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+      color: #38bdf8;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 1rem;
+    }
+
+    li::before {
+      content: "➤ ";
+      color: #38bdf8;
+    }
+
+    li {
+      margin-bottom: 0.75rem;
+    }
+
+    .job {
+      margin-bottom: 2rem;
+    }
+
+    .job h3 {
+      font-size: 1.25rem;
+      color: #f8fafc;
+    }
+
+    .job p {
+      color: #94a3b8;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      background: #1e293b;
+      color: #64748b;
+      padding: 1rem 0;
+      margin-top: 2rem;
+      border-top: 2px solid #38bdf8;
+    }
+
+    @media (min-width: 768px) {
+      body {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vamshi Krishna Reddy Paga</h1>
+    <p>Cloud | DevOps | Linux Engineer</p>
+    <div class="contact">
+      <a href="mailto:vpaga98@gmail.com">vpaga98@gmail.com</a>
+      <span>📞 +1 7049232834 | +91 7799122402</span>
+      <a href="https://linkedin.com/in/vpaga" target="_blank">LinkedIn</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Experienced DevOps and Cloud Engineer with over 5 years of expertise in automation, CI/CD, infrastructure as code, containerization, and hybrid cloud deployments. Passionate about building resilient systems and streamlining operations.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Toolchain & Technologies</h2>
+    <ul>
+      <li><strong>Cloud:</strong> AWS, Azure, GCP</li>
+      <li><strong>IaC & Automation:</strong> Terraform, Ansible, Bash, Python</li>
+      <li><strong>CI/CD:</strong> GitHub Actions, Jenkins, AWS CodePipeline</li>
+      <li><strong>Containers:</strong> Docker, Kubernetes, Helm</li>
+      <li><strong>Monitoring:</strong> Prometheus, Grafana, Zabbix</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <div class="job">
+      <h3>JP Morgan Chase & Co. – Cloud Engineer</h3>
+      <p><em>Feb 2024 – Present</em></p>
+      <ul>
+        <li>Deployed secure EKS clusters with automated provisioning via Terraform and Ansible.</li>
+        <li>Improved CI/CD pipelines, integrating AWS CodePipeline for continuous delivery.</li>
+        <li>Streamlined compliance automation using Python and AWS KMS.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>UNC Charlotte – Linux Systems Specialist</h3>
+      <p><em>Jun 2022 – Dec 2023</em></p>
+      <ul>
+        <li>Developed Bash/Ansible automation for Linux server management and patching.</li>
+        <li>Enhanced monitoring and SLA tracking with Zabbix and Grafana dashboards.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>DXC Technology – Linux & Network Ops</h3>
+      <p><em>Nov 2019 – Jan 2022</em></p>
+      <ul>
+        <li>Maintained 2500+ Linux servers, ensuring high availability and zero-downtime migrations.</li>
+        <li>Led multiple SAP HANA migrations to AWS using automated cloud provisioning scripts.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>CI/CD Workflow Redesign:</strong> Jenkins → AWS CodePipeline migration with 35% faster deployments.</li>
+      <li><strong>SAP Cloud Migration:</strong> Automated 3-region SAP HANA deployments with Terraform and Ansible.</li>
+      <li><strong>Patch Automation Framework:</strong> Custom Ansible playbooks integrated with Zabbix alerts.</li>
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>AWS Certified Solutions Architect – Associate</li>
+      <li>Azure Administrator Associate</li>
+      <li>CKA – Kubernetes Administrator</li>
+      <li>CKS – Kubernetes Security Specialist</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>MS in Cybersecurity</strong> – UNC Charlotte (2022–2023)</li>
+      <li><strong>BTech in ECE</strong> – Sree Vidyanikethan Engineering College (2015–2019)</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vamshi Krishna Reddy Paga • DevOps Portfolio</p>
+  </footer>
+</body>
+</html>
